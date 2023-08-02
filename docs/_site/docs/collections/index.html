@@ -1,0 +1,549 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Working with Collections - ESD</title>
+<meta name="description" content="Suggestions and Front Matter defaults for working with collections.">
+
+
+  <meta name="author" content="Luis Gonzalez">
+  
+  <meta property="article:author" content="Luis Gonzalez">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_NL">
+<meta property="og:site_name" content="ESD">
+<meta property="og:title" content="Working with Collections">
+<meta property="og:url" content="http://localhost:4000/ESD/docs/collections/">
+
+
+  <meta property="og:description" content="Suggestions and Front Matter defaults for working with collections.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/ESD/assets/images/site-logo.png">
+
+
+
+  <meta name="twitter:site" content="@LuisGonGod">
+  <meta name="twitter:title" content="Working with Collections">
+  <meta name="twitter:description" content="Suggestions and Front Matter defaults for working with collections.">
+  <meta name="twitter:url" content="http://localhost:4000/ESD/docs/collections/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/ESD/assets/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2023-08-02T16:44:54+02:00">
+
+
+
+  <meta property="article:modified_time" content="2018-03-20T21:00:02+01:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/ESD/docs/collections/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Luis Gonzalez",
+      "url": "http://localhost:4000/ESD/",
+      "sameAs": ["https://twitter.com/LuisGonGod","https://www.facebook.com/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/ESD/feed.xml" type="application/atom+xml" rel="alternate" title="ESD Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ESD/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ESD/">
+          ESD
+          <span class="site-subtitle">modules, projects, and more</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ESD/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/year-archive/">Sample Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/collection-archive/">Sample Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/terms/">Terms &amp; Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/quick-start-guide/">Quick-Start Guide</a></li>
+          
+            <li><a href="/ESD/docs/structure/">Structure</a></li>
+          
+            <li><a href="/ESD/docs/installation/">Installation</a></li>
+          
+            <li><a href="/ESD/docs/upgrading/">Upgrading</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Customization</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/configuration/">Configuration</a></li>
+          
+            <li><a href="/ESD/docs/overriding-theme-defaults/">Overriding Theme Defaults</a></li>
+          
+            <li><a href="/ESD/docs/navigation/">Navigation</a></li>
+          
+            <li><a href="/ESD/docs/ui-text/">UI Text</a></li>
+          
+            <li><a href="/ESD/docs/authors/">Authors</a></li>
+          
+            <li><a href="/ESD/docs/layouts/">Layouts</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Content</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/posts/">Working with Posts</a></li>
+          
+            <li><a href="/ESD/docs/pages/">Working with Pages</a></li>
+          
+            <li><a href="/ESD/docs/collections/" class="active">Working with Collections</a></li>
+          
+            <li><a href="/ESD/docs/helpers/">Helpers</a></li>
+          
+            <li><a href="/ESD/docs/utility-classes/">Utility Classes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Extras</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/stylesheets/">Stylesheets</a></li>
+          
+            <li><a href="/ESD/docs/javascript/">JavaScript</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Meta</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/history/">History</a></li>
+          
+            <li><a href="/ESD/docs/contributing/">Contributing</a></li>
+          
+            <li><a href="/ESD/docs/docs-2-2/">Old 2.2 Docs</a></li>
+          
+            <li><a href="/ESD/docs/license/">License</a></li>
+          
+            <li><a href="/ESD/terms/">Terms &amp; Privacy Policy</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Working with Collections">
+    <meta itemprop="description" content="Suggestions and Front Matter defaults for working with collections.">
+    <meta itemprop="datePublished" content="2023-08-02T16:44:54+02:00">
+    <meta itemprop="dateModified" content="2018-03-20T21:00:02+01:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Working with Collections
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Collections like posts and pages work as you’d expect. If you’re new to them be sure to read <a href="https://jekyllrb.com/docs/collections/">Jekyll’s documentation</a>.</p>
+
+<p>The theme has been built with collections in mind and you will find <a href="/ESD/collection-archive/">several examples</a> on the demo site (<a href="/ESD/portfolio/">portfolio</a>, <a href="/ESD/recipes/">recipes</a>, <a href="/ESD/pets/">pets</a>).</p>
+
+<p class="notice--info"><strong>Collections in the Wild:</strong> This set of documentation is also <a href="https://github.com/luisgongod/ESD/blob/master/docs/_docs/">built as a collection</a> if you’re looking for a fully fleshed out example to inspect.</p>
+
+<hr />
+
+<p>A popular use case for collections is to build a portfolio section as part of one’s personal site. Let’s quickly walk through the steps to do that.</p>
+
+<p><strong>Step 1:</strong> Configure the portfolio collection by adding the following to <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
+  <span class="na">portfolio</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">permalink</span><span class="pi">:</span> <span class="s">/:collection/:path/</span>
+</code></pre></div></div>
+
+<p>These settings essentially say output <code class="language-plaintext highlighter-rouge">index.html</code> files for each portfolio document in <code class="language-plaintext highlighter-rouge">_portfolio</code> at <code class="language-plaintext highlighter-rouge">_site/portfolio/&lt;document-filename&gt;/</code>.</p>
+
+<p>Just like posts and pages you’ll probably want to set some defaults for the Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="c1"># _portfolio</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">portfolio</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
+      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">false</span>
+      <span class="na">share</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Now make a portfolio.md file in the ‘_pages’ folder.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Portfolio</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">collection</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/portfolio/</span>
+<span class="na">collection</span><span class="pi">:</span> <span class="s">portfolio</span>
+<span class="na">entries_layout</span><span class="pi">:</span> <span class="s">grid</span>
+<span class="na">classes</span><span class="pi">:</span> <span class="s">wide</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>And then create portfolio content like <a href="https://github.com/luisgongod/ESD/blob/master/docs/_portfolio/foo-bar-website.md"><code class="language-plaintext highlighter-rouge">_portfolio/foo-bar-website.md</code></a>, to end up with something like this.</p>
+
+<p><img src="/ESD/assets/images/mm-portfolio-collection-example.jpg" alt="portfolio collection example" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-03-20">March 20, 2018</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/ESD/docs/pages/" class="pagination--pager" title="Working with Pages
+">Previous</a>
+    
+    
+      <a href="/ESD/docs/helpers/" class="pagination--pager" title="Helpers
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-7328585512091257"
+             data-ad-slot="3049671934"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/LuisGonGod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/luisgongod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/luisgongod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/ESD/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Luis Gonzalez. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ESD/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: 'QB6HVGBSBA',
+  apiKey: '9d5014e5bbc77372547bce778dfa5663',
+  indexName: 'minimal_mistakes',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="/ESD${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+    <style>
+      .google-auto-placed {
+        margin: 2em auto;
+      }
+    </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+  </body>
+</html>

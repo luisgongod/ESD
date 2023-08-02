@@ -1,0 +1,613 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Upgrading - ESD</title>
+<meta name="description" content="Instructions and suggestions for upgrading the theme.">
+
+
+  <meta name="author" content="Luis Gonzalez">
+  
+  <meta property="article:author" content="Luis Gonzalez">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_NL">
+<meta property="og:site_name" content="ESD">
+<meta property="og:title" content="Upgrading">
+<meta property="og:url" content="http://localhost:4000/ESD/docs/upgrading/">
+
+
+  <meta property="og:description" content="Instructions and suggestions for upgrading the theme.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/ESD/assets/images/site-logo.png">
+
+
+
+  <meta name="twitter:site" content="@LuisGonGod">
+  <meta name="twitter:title" content="Upgrading">
+  <meta name="twitter:description" content="Instructions and suggestions for upgrading the theme.">
+  <meta name="twitter:url" content="http://localhost:4000/ESD/docs/upgrading/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/ESD/assets/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2023-08-02T16:44:54+02:00">
+
+
+
+  <meta property="article:modified_time" content="2021-06-23T14:15:34+02:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/ESD/docs/upgrading/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Luis Gonzalez",
+      "url": "http://localhost:4000/ESD/",
+      "sameAs": ["https://twitter.com/LuisGonGod","https://www.facebook.com/"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/ESD/feed.xml" type="application/atom+xml" rel="alternate" title="ESD Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/ESD/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/ESD/">
+          ESD
+          <span class="site-subtitle">modules, projects, and more</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/ESD/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/year-archive/">Sample Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/collection-archive/">Sample Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/ESD/terms/">Terms &amp; Privacy Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/quick-start-guide/">Quick-Start Guide</a></li>
+          
+            <li><a href="/ESD/docs/structure/">Structure</a></li>
+          
+            <li><a href="/ESD/docs/installation/">Installation</a></li>
+          
+            <li><a href="/ESD/docs/upgrading/" class="active">Upgrading</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Customization</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/configuration/">Configuration</a></li>
+          
+            <li><a href="/ESD/docs/overriding-theme-defaults/">Overriding Theme Defaults</a></li>
+          
+            <li><a href="/ESD/docs/navigation/">Navigation</a></li>
+          
+            <li><a href="/ESD/docs/ui-text/">UI Text</a></li>
+          
+            <li><a href="/ESD/docs/authors/">Authors</a></li>
+          
+            <li><a href="/ESD/docs/layouts/">Layouts</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Content</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/posts/">Working with Posts</a></li>
+          
+            <li><a href="/ESD/docs/pages/">Working with Pages</a></li>
+          
+            <li><a href="/ESD/docs/collections/">Working with Collections</a></li>
+          
+            <li><a href="/ESD/docs/helpers/">Helpers</a></li>
+          
+            <li><a href="/ESD/docs/utility-classes/">Utility Classes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Extras</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/stylesheets/">Stylesheets</a></li>
+          
+            <li><a href="/ESD/docs/javascript/">JavaScript</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Meta</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ESD/docs/history/">History</a></li>
+          
+            <li><a href="/ESD/docs/contributing/">Contributing</a></li>
+          
+            <li><a href="/ESD/docs/docs-2-2/">Old 2.2 Docs</a></li>
+          
+            <li><a href="/ESD/docs/license/">License</a></li>
+          
+            <li><a href="/ESD/terms/">Terms &amp; Privacy Policy</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Upgrading">
+    <meta itemprop="description" content="Instructions and suggestions for upgrading the theme.">
+    
+    <meta itemprop="dateModified" content="2021-06-23T14:15:34+02:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Upgrading
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#ruby-gem">Ruby Gem</a></li><li><a href="#remote-theme">Remote theme</a></li><li><a href="#use-git">Use Git</a><ul><li><a href="#pull-down-updates">Pull down updates</a></li></ul></li><li><a href="#update-files-manually">Update files manually</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>If you’re using the <a href="/ESD/docs/quick-start-guide/#gem-based-method">Ruby Gem</a> or <a href="/ESD/docs/quick-start-guide/#remote-theme-method">remote theme</a> versions of Minimal Mistakes, upgrading is fairly painless.</p>
+
+<p>To check which version you are currently using, view the source of your built site and you should see something similar to:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--&gt;
+</code></pre></div></div>
+
+<p>At the top of every <code class="language-plaintext highlighter-rouge">.html</code> file, <code class="language-plaintext highlighter-rouge">/assets/css/main.css</code>, and <code class="language-plaintext highlighter-rouge">/assets/js/main.min.js</code>.</p>
+
+<h2 id="ruby-gem">Ruby Gem</h2>
+
+<p>Simply run <code class="language-plaintext highlighter-rouge">bundle update</code> if you’re using Bundler (have a <code class="language-plaintext highlighter-rouge">Gemfile</code>) or <code class="language-plaintext highlighter-rouge">gem update minimal-mistakes-jekyll</code> if you’re not.</p>
+
+<p>When using Bundler you can downgrade or lock the theme to a specific release (<a href="https://github.com/mmistakes/minimal-mistakes/tags">tag</a>), branch, or commit. Instead of <code class="language-plaintext highlighter-rouge">gem "minimal-mistakes-jekyll"</code> you’d add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"minimal-mistakes-jekyll"</span><span class="p">,</span> <span class="ss">:git</span> <span class="o">=&gt;</span> <span class="s2">"https://github.com/mmistakes/minimal-mistakes.git"</span><span class="p">,</span> <span class="ss">:tag</span> <span class="o">=&gt;</span> <span class="s2">"4.24.0"</span>
+</code></pre></div></div>
+
+<p>For more information on <a href="http://bundler.io/v1.16/guides/git.html">installing gems from git repositories</a> consult Bundler’s documentation.</p>
+
+<h2 id="remote-theme">Remote theme</h2>
+
+<p>When setting <code class="language-plaintext highlighter-rouge">remote_theme: "mmistakes/minimal-mistakes@4.24.0"</code> in your <code class="language-plaintext highlighter-rouge">_config.yml</code> you may also optionally specify a branch, <a href="https://github.com/mmistakes/minimal-mistakes/tags">tag</a>, or commit to use by appending an @ and the Git ref.</p>
+
+<p>For example you can roll back to release 4.8.1 with <code class="language-plaintext highlighter-rouge">mmistakes/minimal-mistakes@4.8.1</code> or a specific commit with <code class="language-plaintext highlighter-rouge">mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d</code>). For a complete list of theme versions consult the <a href="https://github.com/mmistakes/minimal-mistakes/releases">releases page</a>.</p>
+
+<p>To update the theme on GitHub Pages you’ll need to push up a commit to force a rebuild. An empty commit works well if you don’t have anything to push at the moment:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git commit --allow-empty -m "Force rebuild of site"
+</span></code></pre></div></div>
+
+<h2 id="use-git">Use Git</h2>
+
+<p>If you want to get the most out of the Jekyll + GitHub Pages workflow, then you’ll need to utilize Git. To pull down theme updates you must first ensure there’s an upstream remote. If you forked the theme’s repo then you’re likely good to go.</p>
+
+<p>To double check, run <code class="language-plaintext highlighter-rouge">git remote -v</code> and verify that you can fetch from <code class="language-plaintext highlighter-rouge">origin https://github.com/luisgongod/ESD.git</code>.</p>
+
+<p>To add it you can do the following:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git remote add upstream https://github.com/luisgongod/ESD.git
+</span></code></pre></div></div>
+
+<h3 id="pull-down-updates">Pull down updates</h3>
+
+<p>Now you can pull any commits made to theme’s <code class="language-plaintext highlighter-rouge">master</code> branch with:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git pull upstream master
+</span></code></pre></div></div>
+
+<p>Depending on the amount of customizations you’ve made after forking, there’s likely to be merge conflicts. Work through any conflicting files Git flags, staging the changes you wish to keep, and then commit them.</p>
+
+<h2 id="update-files-manually">Update files manually</h2>
+
+<p>Another way of dealing with updates is <a href="https://github.com/luisgongod/ESD/archive/master.zip">downloading the theme</a> — replacing your layouts, includes, and assets with the newer ones manually. To be sure that you don’t miss any changes it’s probably a good idea to review the theme’s <a href="https://github.com/luisgongod/ESD/commits/master">commit history</a> to see what’s changed since.</p>
+
+<p>Here’s a quick checklist of the important folders/files you’ll want to be mindful of:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_layouts</code></td>
+      <td>Replace all. Apply edits if you customized any layouts.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_includes</code></td>
+      <td>Replace all. Apply edits if you customized any includes.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">assets</code></td>
+      <td>Replace all. Apply edits if you customized stylesheets or scripts.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_sass</code></td>
+      <td>Replace all. Apply edits if you customized Sass partials.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_data/navigation.yml</code></td>
+      <td>Safe to keep. Verify that there were no major structural changes or additions.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></td>
+      <td>Safe to keep. Verify that there were no major structural changes or additions.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">_config.yml</code></td>
+      <td>Safe to keep. Verify that there were no major structural changes or additions.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p class="notice--info"><strong>Note:</strong> If you’re not seeing the latest version, be sure to flush browser and CDN caches. Depending on your hosting environment older versions of <code class="language-plaintext highlighter-rouge">/assets/css/main.css</code>, <code class="language-plaintext highlighter-rouge">/assets/js/main.min.js</code>, or <code class="language-plaintext highlighter-rouge">*.html</code> may be cached.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-06-23">June 23, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/ESD/docs/installation/" class="pagination--pager" title="Installation
+">Previous</a>
+    
+    
+      <a href="/ESD/docs/configuration/" class="pagination--pager" title="Configuration
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-7328585512091257"
+             data-ad-slot="3049671934"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/LuisGonGod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/luisgongod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/luisgongod" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/ESD/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Luis Gonzalez. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/ESD/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: 'QB6HVGBSBA',
+  apiKey: '9d5014e5bbc77372547bce778dfa5663',
+  indexName: 'minimal_mistakes',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="/ESD${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+    <style>
+      .google-auto-placed {
+        margin: 2em auto;
+      }
+    </style>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+  </body>
+</html>
