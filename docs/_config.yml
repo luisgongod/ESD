@@ -7,17 +7,17 @@
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-NL"
-title                    : "ESD"
+title                    : "Gear Axis Lab"
 title_separator          : "-"
 subtitle                 : "modules, projects, and more"
 name                     : &name "Luis Gonzalez" # &name is a YAML anchor which can be *referenced later
 description              : &description "Showcase of eurorack modules and other projects"
 url                      : https://luisgongod.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/ESD" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/GAL" # the subpath of your site, e.g. "/blog"
 repository               : "luisgongod/ESD"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -72,9 +72,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "LuisGonGod"
+  username               : 
 facebook:
-  username               : &facebook "Luis Gonzalez"
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
@@ -84,8 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/LuisGonGod"
-    - "https://www.facebook.com/"
+    # - "https://twitter.com/LuisGonGod"
+    # - "https://www.facebook.com/"
 
 # Analytics
 analytics:
@@ -100,34 +100,34 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/lg_profile_vg.jpg"
   bio              : "bleep bloop"
-  location         : "NL"
+  location         : "EU"
   links:
     - label: "Luis Gonzalez"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/LuisGonGod"
+      url: "https://luisgongod.github.io/ESD/"
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/LuisGonGod"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/luisgongod"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/lui.gongod"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/lui.gongod"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/LuisGonGod"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/LuisGonGod"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/luisgongod"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/luisgongod"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/luisgongod"
 
 
 # Reading Files
