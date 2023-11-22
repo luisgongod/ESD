@@ -34,7 +34,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          : "light" # "light" (default), "dark"
   utterances:
     theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -84,8 +84,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    # - "https://twitter.com/LuisGonGod"
-    # - "https://www.facebook.com/"
+    - "https://twitter.com/LuisGonGod"
+    - "https://www.facebook.com/"
 
 # Analytics
 analytics:
@@ -105,29 +105,29 @@ author:
     - label: "Luis Gonzalez"
       icon: "fas fa-fw fa-link"
       url: "https://luisgongod.github.io/ESD/"
-    # - label: "Twitter"
-      # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/LuisGonGod"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/LuisGonGod"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/luisgongod"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/lui.gongod"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/lui.gongod"
 
 
 # Site Footer
 footer:
   links:
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     url: "https://twitter.com/LuisGonGod"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/LuisGonGod"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/luisgongod"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/luisgongod"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/luisgongod"
 
 
 # Reading Files
