@@ -32,6 +32,7 @@ main:
     url: /terms/
 
 
+
 # documentation links
 docs:
   - title: Getting Started
@@ -70,6 +71,10 @@ docs:
         url: /docs/helpers/
       - title: "Utility Classes"
         url: /docs/utility-classes/
+  - title: ESD Modular
+    children:
+      - title: "Chrono Trigger"
+        url: /docs/chrono-trigger/      
   - title: Extras
     children:
       - title: "Stylesheets"
