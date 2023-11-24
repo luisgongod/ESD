@@ -24,6 +24,8 @@ main:
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
+  - title: "Modules"
+    url: /modules-collection/    
   - title: "Sample Posts"
     url: /year-archive/
   - title: "Sample Collections"

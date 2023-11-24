@@ -19,6 +19,11 @@ sidebar:
     width: 8 HP\n
     depth: 28 mm\n
     power: 55 mA @ +12V / 29 mA @ -12V\n
+- title: "Other"
+    text: "
+    - width: 8 HP\n
+    - depth: 28 mm\n
+   - power: 55 mA @ +12V / 29 mA @ -12V\n
 "
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
@@ -31,7 +36,6 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
-# SonicScale Shifter
 
 **Description:**
 The SonicScale Shifter is a dynamic module designed to be the heart of your Eurorack modular synthesizer, providing unparalleled control over control voltage (CV) signals. Tailored for precise transposition in semitone increments, this module is a sonic sculptor, allowing you to effortlessly shape the pitch of your sound sources with accuracy and finesse.
@@ -62,3 +66,9 @@ The SonicScale Shifter is a dynamic module designed to be the heart of your Euro
 The SonicScale Shifter empowers you to explore uncharted musical territories, providing a versatile and precise means of transposing CV signals in semitone increments. Elevate your modular synthesis experience as you shape melodies, modulations, and sequences with unmatched precision and sonic finesse.
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
+
+### Downloads:
+- Firmware
+- Manual
+- Schematic
+
