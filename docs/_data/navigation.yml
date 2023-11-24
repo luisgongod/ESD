@@ -75,6 +75,9 @@ docs:
     children:
       - title: "Chrono Trigger"
         url: /docs/chrono-trigger/
+      - title: "sonic scale shifter"
+        url: /modules/sonicscaleshifter/
+        
   - title: Extras
     children:
       - title: "Stylesheets"

@@ -1,6 +1,7 @@
 ---
 title: "Sonic Scale Shifter"
 excerpt: "CV Transposer"
+permalink: /modules/sonicscaleshifter/
 header:
   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
@@ -9,15 +10,15 @@ sidebar:
     image: http://placehold.it/350x250
     image_alt: "logo"
     text: "
-    - A
-    - B
-    - C
+    - A\n
+    - B\n
+    - C\n
     "
   - title: "Specs"
     text: "
-    width: 8 HP
-    depth: 28 mm
-    power: 55 mA @ +12V / 29 mA @ -12V
+    width: 8 HP\n
+    depth: 28 mm\n
+    power: 55 mA @ +12V / 29 mA @ -12V\n
 "
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
@@ -59,3 +60,5 @@ The SonicScale Shifter is a dynamic module designed to be the heart of your Euro
    Designed to seamlessly integrate into your Eurorack case, the SonicScale Shifter optimizes space without compromising on functionality. Its sleek design and user-friendly interface make it an indispensable tool for both beginners and experienced modular enthusiasts.
 
 The SonicScale Shifter empowers you to explore uncharted musical territories, providing a versatile and precise means of transposing CV signals in semitone increments. Elevate your modular synthesis experience as you shape melodies, modulations, and sequences with unmatched precision and sonic finesse.
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
