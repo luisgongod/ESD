@@ -74,7 +74,7 @@ docs:
   - title: ESD Modular
     children:
       - title: "Chrono Trigger"
-        url: /docs/chrono-trigger/      
+        url: /docs/chrono-trigger/
   - title: Extras
     children:
       - title: "Stylesheets"

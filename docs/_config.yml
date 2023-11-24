@@ -199,6 +199,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  modules:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -259,7 +262,14 @@ defaults:
       layout: single
       author_profile: false
       share: true
-
+  # _modules
+  - scope:
+      path: ""
+      type: modules
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # Sass/SCSS
 sass:
