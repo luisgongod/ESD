@@ -10,33 +10,26 @@ header:
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+feature_row:  
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    alt: "SC"
+    title: "SynthChrono"
+    excerpt: "Tic Toc Says the clock"
+    url: "/modules/synthchrono/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Learn more"   
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Lorem ipsuniminsinog, who knwos!"
-    url: "/docs/license/"
+    alt: "TS"
+    title: "Time Sculpt"
+    excerpt: "Double Delay"
+    url: "/modules/timesculpt/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"   
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "SSS"
+    title: "Sonice Scale Shifter"
+    excerpt: "Signal Transposer"
+    url: "/modules/sonicscaleshifter/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
