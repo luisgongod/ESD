@@ -9,15 +9,22 @@ sidebar:
     image: http://placehold.it/350x250
     image_alt: "logo"
     text: "
-    - A
-    - B
-    - C
+    - A\n
+    - B\n
+    - C\n
     "
   - title: "Specs"
     text: "
-    width: 8 HP
-    depth: 28 mm
-    power: 55 mA @ +12V / 29 mA @ -12V
+    width: 8 HP\n
+    depth: 28 mm\n
+    power: 55 mA @ +12V / 29 mA @ -12V\n
+"
+
+  - title: "Docs"
+    text: "
+    - BOM\n
+    - Schematic\n
+    - Manual \n
 "
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
