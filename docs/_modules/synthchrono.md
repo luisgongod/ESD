@@ -15,11 +15,10 @@ sidebar:
     "
   - title: "Specs"
     text: "
-    width: 8 HP\n
-    depth: 28 mm\n
-    power: 55 mA @ +12V / 29 mA @ -12V\n
+    - width: 8 HP\n
+    - depth: 28 mm\n
+    - power: 55 mA @ +12V / 29 mA @ -12V\n
 "
-
   - title: "Docs"
     text: "
     - BOM\n
@@ -37,6 +36,10 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
+
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
+
 
 
 ### Description:
@@ -69,7 +72,3 @@ The SynthChrono Clock Generator stands as a pivotal module within your Eurorack 
    Designed to seamlessly fit into your Eurorack case, the SynthChrono Clock Generator occupies minimal space while delivering maximum functionality. Its sleek design and intuitive interface make it an essential tool for both novice and seasoned modular enthusiasts.
 
 The SynthChrono Clock Generator empowers you to take command of the temporal dimension of your modular synthesizer, providing a solid foundation for crafting intricate and precisely timed sonic experiences. Explore new rhythmic possibilities with the precision and flexibility that the SynthChrono brings to your Eurorack system.
-
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-

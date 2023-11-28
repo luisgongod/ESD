@@ -71,8 +71,6 @@ docs:
         url: /docs/utility-classes/
   - title: ESD Modular
     children:
-      - title: "Chrono Trigger"
-        url: /docs/chrono-trigger/
       - title: "sonic scale shifter"
         url: /modules/sonicscaleshifter/
         

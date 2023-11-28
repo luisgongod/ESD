@@ -8,7 +8,9 @@ header:
   actions:
 
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  "Widgets dance in code,
+   Tinker's web, a canvas bold,
+   Bits and bytes unfold."<br />
   
 feature_row:  
   - image_path: /assets/images/mm-free-feature.png
